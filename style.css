@@ -318,6 +318,9 @@ a{
     text-transform: uppercase;
     color: #e32222;
   }
+  .readbtn:hover{
+    color: #e32222;
+  }
   /* ------Service Section End------ */
   /* ------Safety Section Start------ */
   .progress-circle {
