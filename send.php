@@ -30,7 +30,7 @@ $mail->Password = 'Standup@123';
 $mail->SMTPSecure = 'tls';
 $mail->Port     = 587;
 // Sender info 
-$mail->setFrom('info@mehrapackersandmovers.com', 'Om Cargo International'); 
+$mail->setFrom('info@mehrapackersandmovers.com', 'Om Cargo International  Packers And Movers '); 
 $mail->addReplyTo('info@mehrapackersandmovers.com', 'Test Email'); 
  
 // Add a recipient 
@@ -57,7 +57,7 @@ $mailContent = '
     <p>Service :'.$service.'</p>
     <p>Message :'.$msg.'</p> 
     <p>Thanks and Regards</p>  
-    <p>Om Cargo International</p>';  
+    <p>Om Cargo International  Packers And Movers </p>';  
 // $mailContent = "Name : ".$name."\n"."Subject : ".$subject."\n"."Email : ".$email."\n"."Mbile : ".$mobile."\n"."Message :".$message; 
 $mail->Body = $mailContent; 
 $mail->headers  = "From: Sender Name <standupstartups1@gmail.com>" . "\r\n";
