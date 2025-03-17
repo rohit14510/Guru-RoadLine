@@ -98,6 +98,16 @@ a{
     font-size: 30px;
     cursor: pointer;
 }
+.dropdown-menu{
+    background-color: #313437 !important;
+}
+.dropdown-item{
+    color: #fff !important;
+}
+.dropdown-item:hover{
+    background-color: #fff !important;
+    color: #e32222 !important;
+}
 /* =======Header End========== */
 /* ------Hero Section Start------ */
 .splide {
@@ -615,3 +625,75 @@ height: auto !important;
     color: white;
     margin-bottom: 10px;
 }
+
+/*---thank-Section-Start----*/
+
+.thank{
+    text-align:center;
+    height: 100vh;
+    width: 100%;
+    margin-top:0px;
+  }
+  .thank img{
+      width:60%;
+  }
+  .thank ul{
+    padding:0;
+    list-style:none;
+    display:flex;
+    align-items:center;
+  
+  }
+  .thank ul li a{
+    height:45px;
+    width:45px;
+    background:#ef2445;
+    color:#fff;
+    font-size:20px;
+    display:flex;
+    align-items:center;
+    margin:5px;
+    border-radius:5px;
+    justify-content:center;
+  }
+  
+  @media screen and (max-width:1024px) {
+  .thank{
+    margin-top:80px;
+  }
+  }
+  
+  @media screen and (max-width:768px) {
+    .thank{
+    margin:50px 0px;
+    height:auto;
+  }
+  }
+  
+  @media screen and (max-width:580px) {
+  .thank{
+    margin:20px 0px;
+  }
+  .thank img{
+      width:70%;
+  }
+  }
+  .sec-btn{
+    display: inline-block;
+    padding: 8px 25px;
+    background-color: #FFBF00;
+    color: #fff;
+    border-radius: 5px;
+    transition: .5s;
+    margin-top: 16px;
+    font-variant: small-caps;
+    text-decoration: none;
+  }
+  .sec-btn:hover{
+    background-color: #572DB8;
+    color: #fff;
+  }
+  .social li a{
+  text-decoration: none;
+  }
+  /*---thank-Section-end----*/
