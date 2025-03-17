@@ -23,6 +23,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <!-- ========Header Start======= -->
@@ -31,7 +32,7 @@
         <!-- Top Header -->
         <div class="row p-4">
           <div class="col-md-4">
-            <img src="assets/logo1.png" alt="logo" width="40%" />
+            <img src="assets/logos.png" alt="logo" width="40%" />
           </div>
           <div class="col-md-8">
             <div class="row align-items-center">
@@ -67,7 +68,7 @@
               </div>
               <div class="col-md-4">
                 <div class="text-center">
-                  <button class="topheader-btn">Request A Quote</button>
+                  <a href="contact.html" class="topheader-btn text-white">Request A Quote</a>
                 </div>
               </div>
             </div>
@@ -78,15 +79,64 @@
         <div class="row navigation-header align-items-center">
           <div class="col-md-8" style="background-color: #e32222">
             <ul class="navbar-nav me-auto">
-              <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">SERVICES</a>
+              <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
+              <!-- Services Dropdown -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="servicesDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              SERVICES
+            </a>
+            <ul
+              class="dropdown-menu"
+              aria-labelledby="servicesDropdown"
+            >
+              <li>
+                <a class="dropdown-item" href="household-shifting.html"
+                  ><span>Household Moving Service</span></a
+                >
               </li>
-              <li class="nav-item"><a class="nav-link" href="#">GALLERY</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
+              <li>
+                <a class="dropdown-item" href="office-shifting.html"
+                  ><span>Door To Door Service</span></a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="international-shifting.html"
+                  ><span>Transportaion Service</span></a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="warehousing-storage.html"
+                  ><span>Warehousing & Storage Service</span></a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="domestic-shifting.html"
+                  ><span>Corporate Relocation Service</span></a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="ResidentialMoveingService.html"
+                  ><span>Residential Moving Service</span></a
+                >
+              </li>
+            </ul>
+          </li>
+              <li class="nav-item"><a class="nav-link" href="gallery.html">GALLERY</a></li>
+           
               <li class="nav-item">
-                <a class="nav-link" href="#">CONTACTS</a>
+                <a class="nav-link" href="contact.html">CONTACTS</a>
               </li>
             </ul>
           </div>
@@ -105,7 +155,7 @@
     <div class="container-fluid p-4 d-lg-none d-block bg-white sticky-top shadow">
       <div class="row align-items-center">
         <div class="col-8">
-          <div><img src="assets/logo1.png" alt="logo" width="100%" /></div>
+          <div><img src="assets/logos.png" alt="logo" width="100%" /></div>
         </div>
         <div class="col-4">
           <div class="text-end mobile-menuicon">
@@ -119,10 +169,62 @@
     <div class="mobile-menu">
       <div class="close-menu">&times;</div>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+          <!-- Services Dropdown -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="servicesDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              SERVICES
+            </a>
+            <ul
+              class="dropdown-menu"
+              aria-labelledby="servicesDropdown"
+            >
+              <li>
+                <a class="dropdown-item" href="household-shifting.html"
+                  ><span>Household Moving Service</span></a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="office-shifting.html"
+                  ><span>Door To Door Service</span></a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="international-shifting.html"
+                  ><span>Transportaion Service</span></a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="warehousing-storage.html"
+                  ><span>Warehousing & Storage Service</span></a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="domestic-shifting.html"
+                  ><span>Corporate Relocation Service</span></a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="ResidentialMoveingService.html"
+                  ><span>Residential Moving Service</span></a
+                >
+              </li>
+            </ul>
+          </li>
+        <li><a href="contact.html">CONTACTS</a></li>
       </ul>
     </div>
 
@@ -168,12 +270,12 @@
     </div>
     <!-- ========Hero-Section-End======= -->
     <!-- ========Hero-Caption-Section-Start======= -->
-    <div class="conatiner-fluid p-4 text-center">
+    <div class="conatiner-fluid p-4 text-center ">
       <div class="row justify-content-center">
         <div class="col-lg-8">
-          <h1 class="hero-caption">
-            “I have found honest and reliable movers through for each of my last
-            seven moves”
+          <h1 class="hero-caption"data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+            “Om Cargo International is a trusted name in the moving industry.”
           </h1>
         </div>
       </div>
@@ -183,7 +285,7 @@
     <div class="container-fluid FormSection">
       <div class="row">
         <div class="col-lg-6">
-          <div class="form-container">
+          <div class="form-container"data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
             <h6 class="subtitle">REQUEST A</h6>
             <h2 class="title">Free Quote</h2>
 
@@ -254,20 +356,17 @@
     <!-- ========About-Section-Start======= -->
     <div class="container-fluid p-4">
       <div class="row align-items-center">
-        <div class="col-lg-6">
+        <div class="col-lg-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
           <div>
             <h6 class="main-topic">OUR COMPANY</h6>
             <h1>We are the best moving company in the world.</h1>
             <p class="text-muted">
-              Om Cargo International is a trusted name in the moving industry,
-              providing safe, reliable, and efficient relocation services. With
-              years of experience, we handle domestic and international moves
-              with care and professionalism. Our dedicated team ensures
-              hassle-free transportation, making your moving experience smooth,
-              secure, and stress-free.
+              Om Cargo International is a trusted name in the moving industry, providing safe, reliable, and efficient relocation services. With years of experience and a commitment to excellence, we handle domestic and international moves with care and professionalism. Our expert team ensures secure packing, hassle-free transportation, and timely delivery. Whether residential, corporate, or commercial moving, we guarantee a smooth, stress-free experience with top-notch customer support and complete satisfaction.
             </p>
+            <img class="d-block d-lg-none" src="assets/about.png" alt="about-image" width="100%" />
           </div>
-          <div class="row align-items-center my-4">
+
+          <div class="row align-items-center my-4 ">
             <div class="col-md-6">
               <div class="row align-items-center">
                 <div class="col-3 col-lg-4">
@@ -374,9 +473,9 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6"data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
           <div>
-            <img src="assets/about.png" alt="about-image" width="100%" />
+            <img class="d-none d-lg-block" src="assets/about.png" alt="about-image" width="100%" />
           </div>
         </div>
       </div>
@@ -384,7 +483,7 @@
     <!-- ========About-Section-End======= -->
     <!-- ========Why-Choose-Section-Start======= -->
     <div class="container-fluid p-4">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center"data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
         <div class="col-lg-6">
           <div class="text-center">
             <h6 class="main-topic">WHY CHOOSE US</h6>
@@ -393,7 +492,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-4 mt-4">
+        <div class="col-lg-4 mt-4"data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
           <div class="row">
             <div class="col-3">
               <div class="text-end">
@@ -411,7 +510,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 mt-4">
+        <div class="col-lg-4 mt-4" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
           <div class="row">
             <div class="col-3">
               <div class="text-end">
@@ -429,7 +528,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 mt-4">
+        <div class="col-lg-4 mt-4"data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
           <div class="row">
             <div class="col-3">
               <div class="text-end">
@@ -452,7 +551,7 @@
     <!-- ========Why-Choose-Section-End======= -->
     <!-- ========Service-Section-Start======= -->
     <div class="container-fluid p-4">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center"data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
         <div class="col-lg-6">
           <div class="text-center">
             <h6 class="main-topic">OUR SERVICES</h6>
@@ -461,7 +560,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-4 mt-4">
+        <div class="col-lg-4 mt-4"data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
           <div class="service-card">
             <img
               class="serimg"
@@ -470,7 +569,7 @@
               width="100%"
             />
             <div class="p-4">
-              <h5>Residential Moveing Service</h5>
+              <h5>Residential Moving Service</h5>
               <p class="text-muted">
                 Om Cargo International provides hassle-free residential moving
                 services with secure packing, careful handling, and timely
@@ -483,7 +582,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 mt-4">
+        <div class="col-lg-4 mt-4"data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
           <div class="service-card">
             <img
               class="serimg"
@@ -505,7 +604,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 mt-4">
+        <div class="col-lg-4 mt-4"data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
           <div class="service-card">
             <img
               class="serimg"
@@ -527,7 +626,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 mt-4">
+        <div class="col-lg-4 mt-4"data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
           <div class="service-card">
             <img
               class="serimg"
@@ -549,7 +648,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 mt-4">
+        <div class="col-lg-4 mt-4"data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
           <div class="service-card">
             <img
               class="serimg"
@@ -570,7 +669,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 mt-4">
+        <div class="col-lg-4 mt-4"data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
           <div class="service-card">
             <img
               class="serimg"
@@ -598,7 +697,7 @@
     <!-- ========Moving-safely-Section-Start======= -->
     <div class="container-fluid p-4">
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6"data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
           <div>
             <h6 class="main-topic">MOVING SAFELY</h6>
             <h1>We provide Safe Moving Procedures</h1>
@@ -612,7 +711,7 @@
             </p>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6"data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
           <div class="row justify-content-center text-center">
             <div class="col-md-6 mt-4">
               <div class="d-flex justify-content-center">
@@ -644,7 +743,7 @@
     </div>
     <!-- ========Moving-Safely-Section-End======= -->
     <!-- ========Client-Section-Start======= -->
-    <div class="container-fluid P-4">
+    <div class="container-fluid P-4"data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
       <div id="client-slider" class="splide">
         <div class="splide__track">
           <ul class="splide__list">
@@ -669,7 +768,7 @@
     </div>
     <!-- ========Client-Section-End======= -->
     <!-- ========Get Started-Section-Start======= -->
-    <div class="container-fluid getstarted mt-0 mt-lg-4">
+    <div class="container-fluid getstarted mt-0 mt-lg-4"data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
       <div class="row align-items-center">
         <div class="col-lg-8">
           <div class="text-center text-lg-start">
@@ -1389,7 +1488,7 @@
           <div>
             <h4 class="footer-link">Services</h4>
             <ul class="footer-navlink">
-              <li><a href="">Residential Moveing Service</a></li>
+              <li><a href="">Residential Moving Service</a></li>
               <li><a href="">Corporate Relocation Service</a></li>
               <li><a href="">Warehousing & Storage Service</a></li>
               <li><a href="">Transportation Service</a></li>
@@ -1481,6 +1580,10 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/js/splide.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
   </body>
