@@ -139,12 +139,24 @@ a{
     border-radius: 5px;
   
 }
+.daesktop-caption {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    width: 400px;
+    background: rgba(227, 34, 34, 0.8);
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+}
 .caption {
     position: absolute;
     bottom: 10px;
     left: 10px;
     width: 400px;
-    background: #e32222;
+    background: rgba(227, 34, 34, 0.8);
     color: white;
     padding: 20px;
     font-size: 16px;
@@ -179,7 +191,7 @@ a{
 }
     .caption{
         width: 200px;
-        background: #e32222;
+        background: rgba(227, 34, 34, 0.8);
         color: white;
         padding: 10px;
         font-size: 10px;
@@ -318,7 +330,7 @@ a{
  /* ------About Section End------ */
   /* ------iso Section Start------ */
   .iso-section{
-    background-color: #f4f1f1;
+    background-color: rgba(227, 34, 34, 0.1);
   }
   /* ------iso Section End------ */
   /* ------Service Section Start------ */
