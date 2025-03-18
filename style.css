@@ -46,9 +46,10 @@ a{
 .navbar-nav{
     display: flex;
     flex-direction: row;
+  
 }
 .navbar-nav li{
-    margin: 10px 20px;
+    margin: 10px 40px;
     color: #fff;
     font-weight: 600;
 }
@@ -128,6 +129,16 @@ a{
 }
 
 
+.Slider-Form {
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    width: 450px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+  
+}
 .caption {
     position: absolute;
     bottom: 10px;
@@ -305,6 +316,11 @@ a{
 }
 }
  /* ------About Section End------ */
+  /* ------iso Section Start------ */
+  .iso-section{
+    background-color: #f4f1f1;
+  }
+  /* ------iso Section End------ */
   /* ------Service Section Start------ */
   .service-card{
     border: 1px solid #e32222;
@@ -361,6 +377,58 @@ height: auto !important;
         height: auto !important;
             }
 }
+/* ---------Testimonials-section-start------------ */
+.testimonials-section {
+    background-image: url("assets/Project_bg.png");
+    background-size: cover;
+   
+  }  
+.testimonial-card {
+    width: 350px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    
+  }
+  .testistar{
+    display: flex;
+    justify-content: start;
+    list-style: none;
+    padding: 0%;
+  }
+  .testistar li i{
+    color: #F7CB4D;
+   
+  }
+  @media (max-width: 768px) {
+    .testimonial-card {
+      width: 100%;
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      
+    }
+    .testistar{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0%;
+      }
+  }
+  .testimonial-card .profile img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  .testimonial-card .profile-info {
+    margin-left: 15px;
+  }
+  
+  .splide__slide {
+    position: relative;
+  }
+
 /* --------Get Started Section Start---------- */
 .getstarted{
     background-color: #e32222;
