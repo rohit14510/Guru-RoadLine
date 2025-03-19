@@ -30,11 +30,11 @@ $mail->Password = 'Standup@123';
 $mail->SMTPSecure = 'tls';
 $mail->Port     = 587;
 // Sender info 
-$mail->setFrom('info@mehrapackersandmovers.com', 'Om Cargo International  Packers And Movers '); 
-$mail->addReplyTo('info@mehrapackersandmovers.com', 'Test Email'); 
+$mail->setFrom('info@ompackers.in', 'Om Cargo International  Packers And Movers '); 
+$mail->addReplyTo('info@ompackers.in', 'Test Email'); 
  
 // Add a recipient 
-$mail->addAddress('mehrapackersmovers@gmail.com'); 
+$mail->addAddress('rohitpancholi14510@gmail.com'); 
  
 // Add cc or bcc  
 // $mail->addCC('cc@example.com'); 
@@ -68,7 +68,7 @@ $mail->headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
 if(!$mail->send()){ ?>
     <script>
     alert("Message could not be sent");
-    window.location.href="https://mehrapackersandmovers.com/thank-you.html";
+    window.location.href="https://ompackers.in/thank-you.html";
     </script>
     // 
     <?php
@@ -80,7 +80,7 @@ if(!$mail->send()){ ?>
              
             //   if( $_GET['status'] == 'success') {
             //      alert("Mail Send Successfully");
-                 window.location.href="https://mehrapackersandmovers.com/thank-you.html";
+                 window.location.href="https://ompackers.in/thank-you.html";
             //   }
             //   else{
             //       echo 'alert("no good");';
