@@ -34,7 +34,7 @@ $mail->setFrom('info@ompackers.in', 'Om Cargo International  Packers And Movers 
 $mail->addReplyTo('info@ompackers.in', 'Test Email'); 
  
 // Add a recipient 
-$mail->addAddress('rohitpancholi14510@gmail.com'); 
+$mail->addAddress('Ompackers25@gmail.com'); 
  
 // Add cc or bcc  
 // $mail->addCC('cc@example.com'); 
