@@ -72,14 +72,14 @@ a {
   flex-direction: row;
 }
 .navbar-nav li {
-  margin: 10px 40px;
+  margin: 10px 20px;
   color: #fff;
   font-weight: 600;
 }
 .social-icons a {
   color: white;
   margin: 13.2px 20px;
-  font-size: 22px;
+  font-size: 20px;
 }
 .mobile-menuicon {
   font-size: 30px;
@@ -88,7 +88,7 @@ a {
   position: fixed;
   top: 0;
   left: -100%;
-  width: 250px;
+  width: 280px;
   height: 100%;
   background: #fff;
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
@@ -347,6 +347,12 @@ a {
 }
 /* ------iso Section End------ */
 /* ------Service Section Start------ */
+.service-title{
+  color: #fff;
+  background-color: #e32222;
+  padding: 10px 20px;
+  display: inline-block;
+}
 .service-card {
   border: 1px solid #e32222;
   background-color: #e32222;
@@ -461,7 +467,10 @@ a {
 .splide__slide {
   position: relative;
 }
-
+.branch-list li a{
+  font-size: 14px;
+  font-weight: 600;
+}
 /* --------Get Started Section Start---------- */
 .getstarted {
   background-color: #e32222;
@@ -479,9 +488,15 @@ a {
   background-color: #313437;
   color: white;
 }
+.footer-1 p{
+  font-size: 14px;
+}
+.footer-2{
+  font-size: 14px;
+}
 .footer-icon {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background-color: #e32222;
   display: flex;
@@ -489,7 +504,7 @@ a {
   align-items: center;
 }
 .footer-icon i {
-  font-size: 20px;
+  font-size: 15px;
 }
 .social-icons {
   display: flex;
@@ -497,8 +512,8 @@ a {
   padding: 0%;
 }
 .social-icons li {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
   border: 1px solid #f1f1f1;
   display: flex;
@@ -507,9 +522,10 @@ a {
   margin-right: 10px;
 }
 .social-icons li a i {
-  font-size: 20px;
+  font-size: 18px;
 }
 .footer-link {
+  font-size: 18px;
   position: relative;
   display: inline-block;
   padding-bottom: 5px; /* नीचे थोड़ा gap */
@@ -533,7 +549,11 @@ a {
 }
 .footer-navlink a {
   text-decoration: none;
+  font-size: 14px;
   color: #fff;
+}
+.Copyright p{
+font-size: 14px;
 }
 /* ------About Page---- */
 .service_Section {
