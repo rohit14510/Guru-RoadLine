@@ -92,16 +92,51 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener('DOMContentLoaded', function () {
     new Splide('#client-slider', {
         type    : 'loop',
-        perPage : 5,   // Desktop में 5 इमेज
+        perPage : 7,   // Desktop में 5 इमेज
         perMove : 1,
         autoplay: true,
-        interval: 2000,
+        interval: 1000,
         arrows: false,
         pagination: false,
         breakpoints: {
-            768: { perPage: 1 } // Mobile में 1 इमेज
+            768: { perPage: 3 } // Mobile में 1 इमेज
         }
     }).mount();
+     new Splide('.Packer-Movers-Slider', {
+    type   : 'loop',
+    perPage: 3,
+    gap    : '1rem',
+    autoplay: true,
+     interval: 1500,
+     arrows: false,
+        pagination: false,
+    breakpoints: {
+      1024: {
+        perPage: 2,
+      },
+      768: {
+        perPage: 1,
+      },
+    },
+  }).mount();
+  new Splide('.Transportation-Slider', {
+    type   : 'loop',
+    perPage: 3,
+    gap    : '1rem',
+    autoplay: true,
+     interval: 1500,
+     arrows: false,
+        pagination: false,
+    breakpoints: {
+      1024: {
+        perPage: 2,
+      },
+      768: {
+        perPage: 1,
+      },
+    },
+  }).mount();
+
 });
 //Testimonials
 document.addEventListener('DOMContentLoaded', function () {

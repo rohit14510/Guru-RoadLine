@@ -44,6 +44,12 @@
 }
 .main-topic {
   color: #e32222;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.title-content{
+  font-weight: 700;
+  text-transform: capitalize;
 }
 a {
   text-decoration: none;
@@ -336,13 +342,24 @@ a {
 /* ------About Section End------ */
 /* ------iso Section Start------ */
 .iso-section {
-  background-color: rgba(227, 34, 34, 0.1);
+  /* background-color: rgba(227, 34, 34, 0.1); */
+  background-color: #E5F2F7;
 }
 /* ------iso Section End------ */
 /* ------Service Section Start------ */
 .service-card {
   border: 1px solid #e32222;
+  background-color: #e32222;
   transition: 0.5s;
+  padding: 10px;
+    border-radius: 10px;
+}
+.service-card img{
+  border-radius: 10px;
+    height: 250px;
+  width: 100%;
+  object-fit: cover;
+
 }
 .readbtn {
   font-weight: bold;
@@ -350,10 +367,12 @@ a {
   letter-spacing: 1px;
   font-size: 12px;
   text-transform: uppercase;
-  color: #e32222;
+  color: #fff;
+  background-color: #000;
+  padding: 10px 20px;
 }
 .readbtn:hover {
-  color: #e32222;
+  color: #fff;
 }
 /* ------Service Section End------ */
 /* ------Safety Section Start------ */
